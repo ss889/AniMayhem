@@ -1,0 +1,56 @@
+[
+  {
+    "mal_id": 5114,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "genres": ["Action", "Adventure", "Drama", "Fantasy"],
+    "studio": "Bones",
+    "year": 2009,
+    "episodes": 64,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 16498,
+    "title": "Attack on Titan",
+    "genres": ["Action", "Drama", "Suspense"],
+    "studio": "Wit Studio",
+    "year": 2013,
+    "episodes": 25,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 9253,
+    "title": "Steins;Gate",
+    "genres": ["Drama", "Sci-Fi", "Suspense"],
+    "studio": "White Fox",
+    "year": 2011,
+    "episodes": 24,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 11061,
+    "title": "Hunter x Hunter",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "studio": "Madhouse",
+    "year": 2011,
+    "episodes": 148,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 40748,
+    "title": "Jujutsu Kaisen",
+    "genres": ["Action", "Supernatural"],
+    "studio": "MAPPA",
+    "year": 2020,
+    "episodes": 24,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 1535,
+    "title": "Death Note",
+    "genres": ["Supernatural", "Suspense"],
+    "studio": "Madhouse",
+    "year": 2006,
+    "episodes": 37,
+    "demographic": "shonen"
+  }
+]

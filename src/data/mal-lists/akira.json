@@ -1,0 +1,33 @@
+{
+  "username": "akira",
+  "entries": [
+    {
+      "mal_id": 16498,
+      "title": "Attack on Titan",
+      "status": "completed",
+      "score": 9,
+      "episodes_watched": 25
+    },
+    {
+      "mal_id": 1535,
+      "title": "Death Note",
+      "status": "completed",
+      "score": 8,
+      "episodes_watched": 37
+    },
+    {
+      "mal_id": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "status": "watching",
+      "score": 10,
+      "episodes_watched": 20
+    },
+    {
+      "mal_id": 9253,
+      "title": "Steins;Gate",
+      "status": "plan_to_watch",
+      "score": 0,
+      "episodes_watched": 0
+    }
+  ]
+}

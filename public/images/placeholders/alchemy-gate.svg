@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Alchemy gate placeholder</title>
+  <desc id="desc">A stylized golden transmutation circle on paper.</desc>
+  <rect width="900" height="540" fill="#FAF8F4"/>
+  <circle cx="450" cy="270" r="180" fill="none" stroke="#F4B942" stroke-width="18"/>
+  <circle cx="450" cy="270" r="95" fill="none" stroke="#1A1A2E" stroke-width="10"/>
+  <path d="M450 98 604 365H296Z" fill="none" stroke="#E84855" stroke-width="12"/>
+  <path d="M260 270h380M450 90v360M318 138l264 264M582 138 318 402" stroke="#1A1A2E" stroke-width="8" opacity=".72"/>
+</svg>

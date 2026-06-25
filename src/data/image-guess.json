@@ -1,0 +1,26 @@
+[
+  {
+    "id": "alchemy-gate",
+    "image_path": "/AniMayhem/images/placeholders/alchemy-gate.svg",
+    "series_title": "Fullmetal Alchemist: Brotherhood",
+    "type": "object",
+    "choices": ["Attack on Titan", "Fullmetal Alchemist: Brotherhood", "Steins;Gate", "Jujutsu Kaisen"],
+    "answer": "Fullmetal Alchemist: Brotherhood"
+  },
+  {
+    "id": "clock-lab",
+    "image_path": "/AniMayhem/images/placeholders/clock-lab.svg",
+    "series_title": "Steins;Gate",
+    "type": "scene",
+    "choices": ["Death Note", "Steins;Gate", "Hunter x Hunter", "My Hero Academia"],
+    "answer": "Steins;Gate"
+  },
+  {
+    "id": "cursed-finger",
+    "image_path": "/AniMayhem/images/placeholders/cursed-finger.svg",
+    "series_title": "Jujutsu Kaisen",
+    "type": "object",
+    "choices": ["Jujutsu Kaisen", "One Piece", "Attack on Titan", "Death Note"],
+    "answer": "Jujutsu Kaisen"
+  }
+]
