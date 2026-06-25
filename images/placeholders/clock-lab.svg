@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Clock lab placeholder</title>
+  <desc id="desc">A lab desk with clocks and signal lines.</desc>
+  <rect width="900" height="540" fill="#FAF8F4"/>
+  <rect x="120" y="330" width="660" height="58" rx="8" fill="#1A1A2E"/>
+  <circle cx="320" cy="235" r="88" fill="none" stroke="#1A1A2E" stroke-width="14"/>
+  <circle cx="580" cy="235" r="88" fill="none" stroke="#F4B942" stroke-width="14"/>
+  <path d="M320 235v-55M320 235l42 32M580 235v-48M580 235l-52 30" stroke="#E84855" stroke-width="10" stroke-linecap="round"/>
+  <path d="M130 150c80-56 142-56 222 0s142 56 222 0 142-56 222 0" fill="none" stroke="#3DDC97" stroke-width="12"/>
+</svg>
