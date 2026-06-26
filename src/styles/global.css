@@ -62,7 +62,10 @@ button:disabled {
 .brand-mark {
   color: var(--color-accent);
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 0.9;
+  text-transform: uppercase;
+  transform: skew(-10deg);
 }
 
 .site-nav {
@@ -192,13 +195,18 @@ button:disabled {
 h1,
 h2 {
   font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
   letter-spacing: 0;
   line-height: 0.95;
   margin: 0;
+  text-transform: uppercase;
+  transform: skew(-9deg);
+  transform-origin: left center;
 }
 
 h1 {
-  font-size: clamp(4rem, 13vw, 9.5rem);
+  font-size: clamp(4rem, 8vw, 8.25rem);
 }
 
 h2 {
@@ -252,8 +260,12 @@ p {
 
 .mode-card strong {
   font-family: var(--font-display);
+  font-style: italic;
   font-size: clamp(2.2rem, 5vw, 4rem);
   line-height: 0.94;
+  text-transform: uppercase;
+  transform: skew(-8deg);
+  transform-origin: left center;
 }
 
 .mode-card p {

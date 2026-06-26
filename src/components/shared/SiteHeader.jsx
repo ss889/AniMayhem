@@ -32,7 +32,7 @@ export function SiteHeader({
   return (
     <header className="site-header">
       <button className="brand-mark" onClick={() => navigate('hub')} type="button">
-        AniMayhem
+        AM
       </button>
       <nav className="site-nav" aria-label="Primary navigation">
         <div className="nav-group">
@@ -41,7 +41,7 @@ export function SiteHeader({
             onClick={() => navigate('comparator')}
             type="button"
           >
-            Comparator <span aria-hidden="true">v</span>
+            Comparator
           </button>
           <div className="nav-dropdown">
             <button onClick={() => navigate('comparator')} type="button">All Series</button>
@@ -75,7 +75,7 @@ export function SiteHeader({
             onClick={() => navigate('image-guess')}
             type="button"
           >
-            Image Guess <span aria-hidden="true">v</span>
+            Image Guess
           </button>
           <div className="nav-dropdown">
             <button onClick={() => navigate('image-guess')} type="button">All Series</button>
