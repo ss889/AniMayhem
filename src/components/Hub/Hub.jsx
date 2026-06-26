@@ -1,13 +1,7 @@
 const modes = [
   {
-    id: 'mal-trivia',
-    title: 'MAL Matchups',
-    description: 'Guess how a gathered watch list treats a title.',
-    meta: 'Personal lists',
-  },
-  {
     id: 'comparator',
-    title: 'Series Signals',
+    title: 'Comparator',
     description: 'Find the hidden anime by comparing genres, years, studios, and episode counts.',
     meta: 'Wordle-style',
   },
@@ -22,13 +16,21 @@ const modes = [
 export function Hub({ onSelectMode, stats }) {
   return (
     <section className="hub-view" aria-labelledby="hub-title">
-      <div className="hub-heading">
-        <p className="eyebrow">Anime trivia cabinet</p>
-        <h1 id="hub-title">AniMayhem</h1>
-        <p>
-          Three compact trivia modes built from static data: personal MAL list reads,
-          series attribute deduction, and curated screenshot guessing.
-        </p>
+      <div className="hero-layout">
+        <div className="hub-heading">
+          <p className="eyebrow">Anime trivia cabinet</p>
+          <h1 id="hub-title">AniMayhem</h1>
+          <p>
+            Static-data anime trivia built around deduction grids, filtered datasets,
+            and curated image prompts.
+          </p>
+        </div>
+
+        <div className="mechanic-demo" aria-hidden="true">
+          {['miss', 'partial', 'match', 'miss', 'match', 'partial', 'miss', 'partial', 'match'].map((state, index) => (
+            <span className={`demo-tile demo-tile--${state}`} key={`${state}-${index}`} />
+          ))}
+        </div>
       </div>
 
       <div className="mode-grid" aria-label="Game modes">

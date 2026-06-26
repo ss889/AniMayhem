@@ -1,13 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FeedbackBadge } from '../shared/FeedbackBadge.jsx';
 import { ModeHeader } from '../shared/ModeHeader.jsx';
 
-export function ImageGuess({ imageGuessData, onBack }) {
+function filterImageData(data, filter) {
+  if (!filter || filter.type === 'all') {
+    return data;
+  }
+
+  if (filter.type === 'genre') {
+    return data.filter((entry) => entry.genre.includes(filter.value));
+  }
+
+  if (filter.type === 'studio') {
+    return data.filter((entry) => entry.studio === filter.value);
+  }
+
+  return data;
+}
+
+function filterLabel(filter) {
+  if (!filter || filter.type === 'all') {
+    return 'All Series';
+  }
+
+  return `${filter.type === 'genre' ? 'Genre' : 'Studio'}: ${filter.value}`;
+}
+
+export function ImageGuess({ filter, imageGuessData, onBack }) {
+  const scopedData = filterImageData(imageGuessData, filter);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState({ correct: 0, total: 0, streak: 0 });
-  const current = imageGuessData[index % imageGuessData.length];
+  const current = scopedData[index % scopedData.length];
   const isCorrect = selected === current.answer;
+
+  useEffect(() => {
+    setIndex(0);
+    setSelected(null);
+  }, [filter]);
 
   function choose(choice) {
     if (selected) return;
@@ -28,13 +58,13 @@ export function ImageGuess({ imageGuessData, onBack }) {
   return (
     <section className="mode-view" aria-labelledby="image-title">
       <ModeHeader eyebrow="Curated image trivia" title="Screenshot Snap" onBack={onBack}>
-        A small starter set that stays readable while the image library grows.
+        A small starter set scoped to {filterLabel(filter)}.
       </ModeHeader>
 
       <div className="game-panel image-panel">
         <div className="score-strip">
           <span>Score {score.correct}/{score.total}</span>
-          <strong>Streak {score.streak}</strong>
+          <strong>Streak {score.streak} - {scopedData.length} images</strong>
         </div>
 
         <figure className="image-clue">
@@ -42,7 +72,7 @@ export function ImageGuess({ imageGuessData, onBack }) {
           <figcaption>{current.type}</figcaption>
         </figure>
 
-        <h2 id="image-title">Which series is this from?</h2>
+        <h2 id="image-title">{current.question}</h2>
         <div className="choice-grid">
           {current.choices.map((choice) => (
             <button

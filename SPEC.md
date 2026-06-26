@@ -1,14 +1,15 @@
 # Anime Trivia Hub
 
-Static Vite + React single-page app for multiple anime trivia game modes.
+Static Vite + React single-page app for anime trivia game modes.
 
 ## Scope
 
 - No backend, API routes, database, auth, OAuth, or live MAL calls.
 - Static JSON data is imported from `src/data`.
 - Navigation is in-page React state only, with no router or URL-per-mode.
-- v1 game modes: MAL personalized trivia, series comparator, image guess.
-- Deferred: character comparator, live MAL OAuth, dark mode.
+- v1 game modes: series comparator and image guess.
+- MAL/Jikan data is a prebuilt content source, not its own mode.
+- Deferred: MAL-personalized trivia, character comparator, live MAL OAuth, daily puzzle mode, light mode.
 
 ## Design
 

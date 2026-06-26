@@ -1,24 +1,53 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ModeHeader } from '../shared/ModeHeader.jsx';
-import { compareGuess } from './comparison.js';
+import { compareGuess, filterComparatorData } from './comparison.js';
 
-export function AnimeComparator({ comparatorData, onBack }) {
-  const target = comparatorData[0];
+function pickRandom(items) {
+  return items[Math.floor(Math.random() * items.length)];
+}
+
+function filterLabel(filter) {
+  if (!filter || filter.type === 'all') {
+    return 'All Series';
+  }
+
+  return `${filter.type === 'genre' ? 'Genre' : 'Studio'}: ${filter.value}`;
+}
+
+export function Comparator({ comparatorData, filter, onBack }) {
+  const scopedData = useMemo(
+    () => filterComparatorData(comparatorData, filter),
+    [comparatorData, filter],
+  );
+  const [target, setTarget] = useState(() => pickRandom(scopedData));
   const [guessTitle, setGuessTitle] = useState('');
   const [guesses, setGuesses] = useState([]);
   const [message, setMessage] = useState('');
 
+  useEffect(() => {
+    setTarget(pickRandom(scopedData));
+    setGuessTitle('');
+    setGuesses([]);
+    setMessage('');
+  }, [scopedData]);
+
   const guessedIds = useMemo(() => new Set(guesses.map((guess) => guess.mal_id)), [guesses]);
-  const availableTitles = comparatorData.map((anime) => anime.title);
   const solved = guesses.some((guess) => guess.mal_id === target.mal_id);
+
+  function startNewSession() {
+    setTarget(pickRandom(scopedData));
+    setGuessTitle('');
+    setGuesses([]);
+    setMessage('');
+  }
 
   function submitGuess(event) {
     event.preventDefault();
     const normalized = guessTitle.trim().toLowerCase();
-    const anime = comparatorData.find((item) => item.title.toLowerCase() === normalized);
+    const anime = scopedData.find((item) => item.title.toLowerCase() === normalized);
 
     if (!anime) {
-      setMessage('Choose a title from the list.');
+      setMessage('Choose a title from this filtered list.');
       return;
     }
 
@@ -29,16 +58,21 @@ export function AnimeComparator({ comparatorData, onBack }) {
 
     setGuesses((current) => [anime, ...current]);
     setGuessTitle('');
-    setMessage(anime.mal_id === target.mal_id ? 'Solved.' : 'Keep comparing.');
+    setMessage(anime.mal_id === target.mal_id ? 'Solved. Start a new session?' : 'Keep comparing.');
   }
 
   return (
     <section className="mode-view" aria-labelledby="comparator-title">
-      <ModeHeader eyebrow="Series deduction" title="Series Signals" onBack={onBack}>
-        Session target, unlimited guesses, autocomplete from the static dataset.
+      <ModeHeader eyebrow="Series deduction" title="Comparator" onBack={onBack}>
+        Session target, unlimited guesses, scoped to {filterLabel(filter)}.
       </ModeHeader>
 
       <div className="game-panel comparator-panel">
+        <div className="score-strip">
+          <span>{filterLabel(filter)}</span>
+          <strong>{scopedData.length} titles</strong>
+        </div>
+
         <form className="guess-form" onSubmit={submitGuess}>
           <label htmlFor="anime-guess">Anime title</label>
           <div>
@@ -52,8 +86,8 @@ export function AnimeComparator({ comparatorData, onBack }) {
               value={guessTitle}
             />
             <datalist id="anime-title-options">
-              {availableTitles.map((title) => (
-                <option key={title} value={title} />
+              {scopedData.map((anime) => (
+                <option key={anime.mal_id} value={anime.title} />
               ))}
             </datalist>
             <button className="primary-button" disabled={solved} type="submit">
@@ -71,7 +105,12 @@ export function AnimeComparator({ comparatorData, onBack }) {
         </div>
 
         <div className="comparison-list" aria-labelledby="comparator-title">
-          <h2 id="comparator-title">Guesses</h2>
+          <div className="section-heading">
+            <h2 id="comparator-title">Guesses</h2>
+            <button className="text-button" onClick={startNewSession} type="button">
+              Play again
+            </button>
+          </div>
           {guesses.length === 0 ? <p className="empty-state">No guesses yet.</p> : null}
           {guesses.map((guess) => (
             <div className="comparison-row" key={guess.mal_id}>

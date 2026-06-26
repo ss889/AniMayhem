@@ -1,5 +1,11 @@
 export function compareGuess(guess, target) {
   const sharedGenres = guess.genres.filter((genre) => target.genres.includes(genre));
+  const genreState =
+    sharedGenres.length === guess.genres.length && sharedGenres.length === target.genres.length
+      ? 'match'
+      : sharedGenres.length > 0
+        ? 'partial'
+        : 'miss';
 
   return [
     {
@@ -10,12 +16,7 @@ export function compareGuess(guess, target) {
     {
       label: 'Genres',
       value: guess.genres.join(', '),
-      state:
-        sharedGenres.length === guess.genres.length && sharedGenres.length === target.genres.length
-          ? 'match'
-          : sharedGenres.length > 0
-            ? 'partial'
-            : 'miss',
+      state: genreState,
     },
     {
       label: 'Studio',
@@ -38,4 +39,20 @@ export function compareGuess(guess, target) {
       state: guess.demographic === target.demographic ? 'match' : 'miss',
     },
   ];
+}
+
+export function filterComparatorData(data, filter) {
+  if (!filter || filter.type === 'all') {
+    return data;
+  }
+
+  if (filter.type === 'genre') {
+    return data.filter((anime) => anime.genres.includes(filter.value));
+  }
+
+  if (filter.type === 'studio') {
+    return data.filter((anime) => anime.studio === filter.value);
+  }
+
+  return data;
 }

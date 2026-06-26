@@ -1,42 +1,53 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
+import { About } from './components/About/About.jsx';
+import { Comparator } from './components/Comparator/Comparator.jsx';
 import { Hub } from './components/Hub/Hub.jsx';
-import { MalTrivia } from './components/MalTrivia/MalTrivia.jsx';
-import { AnimeComparator } from './components/AnimeComparator/AnimeComparator.jsx';
 import { ImageGuess } from './components/ImageGuess/ImageGuess.jsx';
-import userA from './data/mal-lists/akira.json';
-import userB from './data/mal-lists/mika.json';
+import { SiteHeader } from './components/shared/SiteHeader.jsx';
 import comparatorData from './data/anime-comparator.json';
 import imageGuessData from './data/image-guess.json';
 
 const modeViews = {
-  'mal-trivia': MalTrivia,
-  comparator: AnimeComparator,
+  about: About,
+  comparator: Comparator,
   'image-guess': ImageGuess,
 };
 
 export default function App() {
   const [activeMode, setActiveMode] = useState('hub');
-  const malLists = useMemo(() => [userA, userB], []);
+  const [modeFilter, setModeFilter] = useState({ type: 'all' });
   const ActiveView = modeViews[activeMode];
 
   const stats = {
-    'mal-trivia': `${malLists.length} MAL lists`,
     comparator: `${comparatorData.length} series`,
     'image-guess': `${imageGuessData.length} images and growing`,
   };
 
+  function navigate(mode, filter = { type: 'all' }) {
+    setActiveMode(mode);
+    setModeFilter(filter);
+  }
+
   return (
-    <main className="app-shell">
-      {activeMode === 'hub' ? (
-        <Hub onSelectMode={setActiveMode} stats={stats} />
-      ) : (
-        <ActiveView
-          comparatorData={comparatorData}
-          imageGuessData={imageGuessData}
-          malLists={malLists}
-          onBack={() => setActiveMode('hub')}
-        />
-      )}
-    </main>
+    <>
+      <SiteHeader
+        activeMode={activeMode}
+        comparatorData={comparatorData}
+        imageGuessData={imageGuessData}
+        onNavigate={navigate}
+      />
+      <main className="app-shell">
+        {activeMode === 'hub' ? (
+          <Hub onSelectMode={navigate} stats={stats} />
+        ) : (
+          <ActiveView
+            comparatorData={comparatorData}
+            filter={modeFilter}
+            imageGuessData={imageGuessData}
+            onBack={() => navigate('hub')}
+          />
+        )}
+      </main>
+    </>
   );
 }
