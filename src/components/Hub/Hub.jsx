@@ -3,13 +3,11 @@ const modes = [
     id: 'comparator',
     title: 'Comparator',
     description: 'Find the hidden anime by comparing genres, years, studios, and episode counts.',
-    meta: 'Wordle-style',
   },
   {
     id: 'image-guess',
     title: 'Screenshot Snap',
     description: 'Pick the right series from curated image clues.',
-    meta: 'Image round',
   },
 ];
 
@@ -41,7 +39,6 @@ export function Hub({ onSelectMode, stats }) {
             onClick={() => onSelectMode(mode.id)}
             type="button"
           >
-            <span>{mode.meta}</span>
             <strong>{mode.title}</strong>
             <small>{stats[mode.id]}</small>
             <p>{mode.description}</p>

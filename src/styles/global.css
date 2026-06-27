@@ -205,38 +205,6 @@ h2 {
   transform-origin: left center;
 }
 
-.hub-heading h1,
-.mode-card strong {
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      var(--color-text) 0,
-      var(--color-text) 0.16em,
-      transparent 0.16em,
-      transparent 0.19em,
-      var(--color-text) 0.19em,
-      var(--color-text) 0.38em
-    );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.mode-card strong {
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      var(--color-text) 0,
-      var(--color-text) 0.18em,
-      transparent 0.18em,
-      transparent 0.21em,
-      var(--color-text) 0.21em,
-      var(--color-text) 0.44em
-    );
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
 h1 {
   font-size: clamp(4rem, 8vw, 8.25rem);
 }
