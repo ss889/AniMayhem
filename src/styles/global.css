@@ -149,6 +149,11 @@ button:disabled {
   max-width: 780px;
 }
 
+.hub-heading {
+  display: grid;
+  gap: 8px;
+}
+
 .hero-layout {
   align-items: center;
   display: grid;

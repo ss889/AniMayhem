@@ -18,10 +18,6 @@ export function Hub({ onSelectMode, stats }) {
         <div className="hub-heading">
           <p className="eyebrow">Anime trivia cabinet</p>
           <h1 id="hub-title">AniMayhem</h1>
-          <p>
-            Static-data anime trivia built around deduction grids, filtered datasets,
-            and curated image prompts.
-          </p>
         </div>
 
         <div className="mechanic-demo" aria-hidden="true">
