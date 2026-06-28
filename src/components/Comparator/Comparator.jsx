@@ -114,8 +114,12 @@ export function Comparator({ comparatorData, filter, onBack }) {
           {guesses.length === 0 ? <p className="empty-state">No guesses yet.</p> : null}
           {guesses.map((guess) => (
             <div className="comparison-row" key={guess.mal_id}>
-              {compareGuess(guess, target).map((tile) => (
-                <div className={`compare-tile compare-tile--${tile.state}`} key={tile.label}>
+              {compareGuess(guess, target).map((tile, index) => (
+                <div
+                  className={`compare-tile compare-tile--${tile.state}`}
+                  key={tile.label}
+                  style={{ '--tile-index': index }}
+                >
                   <span>{tile.label}</span>
                   <strong>{tile.value}</strong>
                 </div>
