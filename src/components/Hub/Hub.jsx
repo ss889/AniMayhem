@@ -11,7 +11,7 @@ const modes = [
   },
 ];
 
-export function Hub({ onSelectMode, stats }) {
+export function Hub({ demoStates, onSelectMode, stats }) {
   return (
     <section className="hub-view" aria-labelledby="hub-title">
       <div className="hero-layout">
@@ -21,7 +21,7 @@ export function Hub({ onSelectMode, stats }) {
         </div>
 
         <div className="mechanic-demo" aria-hidden="true">
-          {['miss', 'partial', 'match', 'miss', 'match', 'partial', 'miss', 'partial', 'match'].map((state, index) => (
+          {demoStates.map((state, index) => (
             <span className={`demo-tile demo-tile--${state}`} key={`${state}-${index}`} />
           ))}
         </div>
@@ -35,6 +35,20 @@ export function Hub({ onSelectMode, stats }) {
             onClick={() => onSelectMode(mode.id)}
             type="button"
           >
+            <div className={`mode-card-preview mode-card-preview--${mode.id}`} aria-hidden="true">
+              {mode.id === 'comparator' ? (
+                <>
+                  <span />
+                  <span />
+                  <span />
+                </>
+              ) : (
+                <>
+                  <span />
+                  <span />
+                </>
+              )}
+            </div>
             <strong>{mode.title}</strong>
             <small>{stats[mode.id]}</small>
             <p>{mode.description}</p>
