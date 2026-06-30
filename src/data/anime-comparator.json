@@ -51,6 +51,30 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 39195,
+    "title": "Beastars",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "studio": "Orange",
+    "year": 2019,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 40935,
+    "title": "Beastars 2nd Season",
+    "genres": [
+      "Drama",
+      "Suspense"
+    ],
+    "studio": "Orange",
+    "year": 2021,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 269,
     "title": "Bleach",
     "genres": [
@@ -148,6 +172,20 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 38668,
+    "title": "Dorohedoro",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Horror"
+    ],
+    "studio": "MAPPA",
+    "year": 2020,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
     "mal_id": 38691,
     "title": "Dr. Stone",
     "genres": [
@@ -186,6 +224,57 @@
     "demographic": "none"
   },
   {
+    "mal_id": 27833,
+    "title": "Durarara!! x2 Ketsu",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Supernatural"
+    ],
+    "studio": "Shuka",
+    "year": 2016,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 23199,
+    "title": "Durarara!! x2 Shou",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Supernatural"
+    ],
+    "studio": "Shuka",
+    "year": 2015,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 31043,
+    "title": "Erased",
+    "genres": [
+      "Mystery",
+      "Suspense"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2016,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
+    "mal_id": 38671,
+    "title": "Fire Force",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "studio": "David Production",
+    "year": 2019,
+    "episodes": 24,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 28171,
     "title": "Food Wars! Shokugeki no Soma",
     "genres": [
@@ -196,6 +285,42 @@
     "studio": "J.C.Staff",
     "year": 2015,
     "episodes": 24,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 32282,
+    "title": "Food Wars! The Second Plate",
+    "genres": [
+      "Gourmet",
+      "Ecchi"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2016,
+    "episodes": 13,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 35788,
+    "title": "Food Wars! The Third Plate",
+    "genres": [
+      "Gourmet",
+      "Ecchi"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2017,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 36949,
+    "title": "Food Wars! The Third Plate: Totsuki Train Arc",
+    "genres": [
+      "Gourmet",
+      "Ecchi"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2018,
+    "episodes": 12,
     "demographic": "shonen"
   },
   {
@@ -240,6 +365,18 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 34280,
+    "title": "Gamers!",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "PINE JAM",
+    "year": 2017,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
     "mal_id": 2001,
     "title": "Gurren Lagann",
     "genres": [
@@ -264,6 +401,17 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 28891,
+    "title": "Haikyu!! 2nd Season",
+    "genres": [
+      "Sports"
+    ],
+    "studio": "Production I.G",
+    "year": 2015,
+    "episodes": 25,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 32935,
     "title": "Haikyu!! 3rd Season",
     "genres": [
@@ -273,6 +421,28 @@
     "year": 2016,
     "episodes": 10,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 38883,
+    "title": "Haikyu!! To the Top",
+    "genres": [
+      "Sports"
+    ],
+    "studio": "Production I.G",
+    "year": 2020,
+    "episodes": 13,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 32542,
+    "title": "Haven't You Heard? I'm Sakamoto",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "Studio Deen",
+    "year": 2016,
+    "episodes": 12,
+    "demographic": "seinen"
   },
   {
     "mal_id": 11061,
@@ -288,6 +458,19 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 14719,
+    "title": "JoJo's Bizarre Adventure (2012)",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "studio": "David Production",
+    "year": 2012,
+    "episodes": 26,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 31933,
     "title": "JoJo's Bizarre Adventure: Diamond Is Unbreakable",
     "genres": [
@@ -296,6 +479,18 @@
     ],
     "studio": "David Production",
     "year": 2016,
+    "episodes": 39,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 37991,
+    "title": "JoJo's Bizarre Adventure: Golden Wind",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "studio": "David Production",
+    "year": 2018,
     "episodes": 39,
     "demographic": "shonen"
   },
@@ -324,6 +519,18 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 51009,
+    "title": "Jujutsu Kaisen Season 2",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "studio": "MAPPA",
+    "year": 2023,
+    "episodes": 23,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 5680,
     "title": "K-ON!",
     "genres": [
@@ -347,6 +554,18 @@
     "demographic": "seinen"
   },
   {
+    "mal_id": 40591,
+    "title": "Kaguya-sama: Love is War?",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2020,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
     "mal_id": 18679,
     "title": "Kill la Kill",
     "genres": [
@@ -357,6 +576,43 @@
     "year": 2013,
     "episodes": 24,
     "demographic": "none"
+  },
+  {
+    "mal_id": 30831,
+    "title": "KonoSuba: God's Blessing on This Wonderful World!",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Studio Deen",
+    "year": 2016,
+    "episodes": 10,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 32937,
+    "title": "KonoSuba: God's Blessing on This Wonderful World! 2",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Studio Deen",
+    "year": 2017,
+    "episodes": 10,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 11771,
+    "title": "Kuroko's Basketball",
+    "genres": [
+      "Sports"
+    ],
+    "studio": "Production I.G",
+    "year": 2012,
+    "episodes": 25,
+    "demographic": "shonen"
   },
   {
     "mal_id": 34599,
@@ -371,6 +627,31 @@
     "year": 2017,
     "episodes": 13,
     "demographic": "seinen"
+  },
+  {
+    "mal_id": 55813,
+    "title": "Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2024,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 33206,
+    "title": "Miss Kobayashi's Dragon Maid",
+    "genres": [
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "studio": "Kyoto Animation",
+    "year": 2017,
+    "episodes": 13,
+    "demographic": "none"
   },
   {
     "mal_id": 32182,
@@ -397,6 +678,62 @@
     "year": 2019,
     "episodes": 13,
     "demographic": "none"
+  },
+  {
+    "mal_id": 23289,
+    "title": "Monthly Girls' Nozaki-kun",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "Doga Kobo",
+    "year": 2014,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 31964,
+    "title": "My Hero Academia",
+    "genres": [
+      "Action"
+    ],
+    "studio": "Bones",
+    "year": 2016,
+    "episodes": 13,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 33486,
+    "title": "My Hero Academia Season 2",
+    "genres": [
+      "Action"
+    ],
+    "studio": "Bones",
+    "year": 2017,
+    "episodes": 25,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 36456,
+    "title": "My Hero Academia Season 3",
+    "genres": [
+      "Action"
+    ],
+    "studio": "Bones",
+    "year": 2018,
+    "episodes": 25,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 38408,
+    "title": "My Hero Academia Season 4",
+    "genres": [
+      "Action"
+    ],
+    "studio": "Bones",
+    "year": 2019,
+    "episodes": 25,
+    "demographic": "shonen"
   },
   {
     "mal_id": 20,
@@ -439,6 +776,30 @@
     "demographic": "none"
   },
   {
+    "mal_id": 20507,
+    "title": "Noragami",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "studio": "Bones",
+    "year": 2014,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 30503,
+    "title": "Noragami Aragoto",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "studio": "Bones",
+    "year": 2015,
+    "episodes": 13,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 30276,
     "title": "One Punch Man",
     "genres": [
@@ -462,6 +823,20 @@
     "year": 2012,
     "episodes": 22,
     "demographic": "none"
+  },
+  {
+    "mal_id": 59145,
+    "title": "Ranma ½ (2024)",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Ecchi"
+    ],
+    "studio": "MAPPA",
+    "year": 2024,
+    "episodes": 12,
+    "demographic": "shonen"
   },
   {
     "mal_id": 31240,
@@ -488,6 +863,18 @@
     "year": 2021,
     "episodes": 12,
     "demographic": "none"
+  },
+  {
+    "mal_id": 1604,
+    "title": "Reborn!",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "studio": "Artland",
+    "year": 2006,
+    "episodes": 203,
+    "demographic": "shonen"
   },
   {
     "mal_id": 205,
@@ -592,6 +979,80 @@
     "demographic": "none"
   },
   {
+    "mal_id": 15809,
+    "title": "The Devil is a Part-Timer!",
+    "genres": [
+      "Comedy",
+      "Supernatural"
+    ],
+    "studio": "White Fox",
+    "year": 2013,
+    "episodes": 13,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 33255,
+    "title": "The Disastrous Life of Saiki K.",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2016,
+    "episodes": 120,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 40542,
+    "title": "The Disastrous Life of Saiki K.: Reawakened",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2019,
+    "episodes": 6,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 20785,
+    "title": "The Irregular at Magic High School",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "studio": "Madhouse",
+    "year": 2014,
+    "episodes": 26,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 40496,
+    "title": "The Misfit of Demon King Academy",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "studio": "SILVER LINK.",
+    "year": 2020,
+    "episodes": 13,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 35790,
+    "title": "The Rising of the Shield Hero",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "studio": "Kinema Citrus",
+    "year": 2019,
+    "episodes": 25,
+    "demographic": "none"
+  },
+  {
     "mal_id": 22319,
     "title": "Tokyo Ghoul",
     "genres": [
@@ -629,6 +1090,21 @@
     "demographic": "none"
   },
   {
+    "mal_id": 40221,
+    "title": "Tower of God",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Mystery"
+    ],
+    "studio": "Telecom Animation Film",
+    "year": 2020,
+    "episodes": 13,
+    "demographic": "none"
+  },
+  {
     "mal_id": 37521,
     "title": "Vinland Saga",
     "genres": [
@@ -639,6 +1115,17 @@
     "studio": "Wit Studio",
     "year": 2019,
     "episodes": 24,
+    "demographic": "seinen"
+  },
+  {
+    "mal_id": 51553,
+    "title": "Witch Hat Atelier",
+    "genres": [
+      "Fantasy"
+    ],
+    "studio": "BUG FILMS",
+    "year": 2026,
+    "episodes": 13,
     "demographic": "seinen"
   },
   {

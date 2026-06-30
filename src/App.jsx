@@ -4,6 +4,7 @@ import { Comparator } from './components/Comparator/Comparator.jsx';
 import { compareGuess } from './components/Comparator/comparison.js';
 import { Hub } from './components/Hub/Hub.jsx';
 import { ImageGuess } from './components/ImageGuess/ImageGuess.jsx';
+import { ConsentBanner } from './components/shared/ConsentBanner.jsx';
 import { SiteHeader } from './components/shared/SiteHeader.jsx';
 import comparatorData from './data/anime-comparator.json';
 import imageGuessData from './data/image-guess.json';
@@ -53,6 +54,7 @@ export default function App() {
           )}
         </div>
       </main>
+      <ConsentBanner />
     </>
   );
 }

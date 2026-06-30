@@ -92,7 +92,7 @@ async function enrichAnime(entry) {
     return null;
   }
 
-  if (!year || !episodes || studio === 'Unknown' || !genres.length) {
+  if (!year || !episodes || episodes < 4 || studio === 'Unknown' || !genres.length) {
     return null;
   }
 
