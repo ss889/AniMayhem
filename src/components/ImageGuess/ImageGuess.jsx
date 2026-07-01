@@ -2,6 +2,20 @@ import { useEffect, useState } from 'react';
 import { FeedbackBadge } from '../shared/FeedbackBadge.jsx';
 import { ModeHeader } from '../shared/ModeHeader.jsx';
 
+function shuffleItems(items) {
+  return [...items]
+    .map((item) => ({ item, sort: Math.random() }))
+    .sort((left, right) => left.sort - right.sort)
+    .map(({ item }) => item);
+}
+
+function makeRounds(items) {
+  return shuffleItems(items).map((entry) => ({
+    ...entry,
+    choices: shuffleItems(entry.choices),
+  }));
+}
+
 function filterImageData(data, filter) {
   if (!filter || filter.type === 'all') {
     return data;
@@ -28,16 +42,18 @@ function filterLabel(filter) {
 
 export function ImageGuess({ filter, imageGuessData, onBack }) {
   const scopedData = filterImageData(imageGuessData, filter);
+  const [rounds, setRounds] = useState(() => makeRounds(scopedData));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState({ correct: 0, total: 0, streak: 0 });
-  const current = scopedData[index % scopedData.length];
+  const current = rounds[index % rounds.length];
   const isCorrect = selected === current.answer;
 
   useEffect(() => {
+    setRounds(makeRounds(scopedData));
     setIndex(0);
     setSelected(null);
-  }, [filter]);
+  }, [filter, imageGuessData]);
 
   function choose(choice) {
     if (selected) return;
@@ -51,7 +67,13 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
   }
 
   function nextImage() {
-    setIndex((value) => value + 1);
+    if (index + 1 >= rounds.length) {
+      setRounds(makeRounds(scopedData));
+      setIndex(0);
+    } else {
+      setIndex((value) => value + 1);
+    }
+
     setSelected(null);
   }
 

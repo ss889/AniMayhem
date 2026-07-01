@@ -8,6 +8,7 @@ import { ConsentBanner } from './components/shared/ConsentBanner.jsx';
 import { SiteHeader } from './components/shared/SiteHeader.jsx';
 import comparatorData from './data/anime-comparator.json';
 import imageGuessData from './data/image-guess.json';
+import imageShotList from './data/image-shot-list.json';
 
 const modeViews = {
   about: About,
@@ -22,7 +23,7 @@ export default function App() {
 
   const stats = {
     comparator: `${comparatorData.length} series`,
-    'image-guess': `${imageGuessData.length} images and growing`,
+    'image-guess': `${imageGuessData.length} playable / ${imageShotList.length} planned`,
   };
   const demoStates = compareGuess(comparatorData[1], comparatorData[0]).map((tile) => tile.state);
   const heroDemoStates = [...demoStates, ...demoStates].slice(0, 9);

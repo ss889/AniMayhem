@@ -1,5 +1,17 @@
 [
   {
+    "mal_id": 1292,
+    "title": "Afro Samurai",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "studio": "Gonzo",
+    "year": 2007,
+    "episodes": 5,
+    "demographic": "none"
+  },
+  {
     "mal_id": 6547,
     "title": "Angel Beats!",
     "genres": [
@@ -10,6 +22,52 @@
     "year": 2010,
     "episodes": 13,
     "demographic": "none"
+  },
+  {
+    "mal_id": 39468,
+    "title": "Ascendance of a Bookworm",
+    "genres": [
+      "Fantasy"
+    ],
+    "studio": "Ajia-do",
+    "year": 2019,
+    "episodes": 14,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 40815,
+    "title": "Ascendance of a Bookworm Season 2",
+    "genres": [
+      "Fantasy"
+    ],
+    "studio": "Ajia-do",
+    "year": 2020,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 24833,
+    "title": "Assassination Classroom",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "studio": "Lerche",
+    "year": 2015,
+    "episodes": 22,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 30654,
+    "title": "Assassination Classroom Second Season",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "studio": "Lerche",
+    "year": 2016,
+    "episodes": 25,
+    "demographic": "shonen"
   },
   {
     "mal_id": 16498,
@@ -34,6 +92,19 @@
     ],
     "studio": "Wit Studio",
     "year": 2017,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 35760,
+    "title": "Attack on Titan Season 3",
+    "genres": [
+      "Action",
+      "Drama",
+      "Suspense"
+    ],
+    "studio": "Wit Studio",
+    "year": 2018,
     "episodes": 12,
     "demographic": "shonen"
   },
@@ -88,6 +159,31 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 9919,
+    "title": "Blue Exorcist",
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2011,
+    "episodes": 25,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 1050,
+    "title": "Bobobo-bo Bo-bobo",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "studio": "Toei Animation",
+    "year": 2003,
+    "episodes": 76,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 47917,
     "title": "Bocchi the Rock!",
     "genres": [
@@ -97,6 +193,18 @@
     "year": 2022,
     "episodes": 12,
     "demographic": "seinen"
+  },
+  {
+    "mal_id": 41312,
+    "title": "By the Grace of the Gods",
+    "genres": [
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "studio": "Maho Film",
+    "year": 2020,
+    "episodes": 12,
+    "demographic": "none"
   },
   {
     "mal_id": 44511,
@@ -121,6 +229,18 @@
     "year": 2007,
     "episodes": 23,
     "demographic": "none"
+  },
+  {
+    "mal_id": 34825,
+    "title": "Clean Freak! Aoyama-kun",
+    "genres": [
+      "Comedy",
+      "Sports"
+    ],
+    "studio": "Studio Hibari",
+    "year": 2017,
+    "episodes": 12,
+    "demographic": "seinen"
   },
   {
     "mal_id": 1575,
@@ -170,6 +290,34 @@
     "year": 2019,
     "episodes": 26,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 1313,
+    "title": "Digimon Adventure 02",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Toei Animation",
+    "year": 2000,
+    "episodes": 50,
+    "demographic": "kids"
+  },
+  {
+    "mal_id": 552,
+    "title": "Digimon: Digital Monsters",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Toei Animation",
+    "year": 1999,
+    "episodes": 54,
+    "demographic": "kids"
   },
   {
     "mal_id": 38668,
@@ -239,6 +387,19 @@
   {
     "mal_id": 23199,
     "title": "Durarara!! x2 Shou",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Supernatural"
+    ],
+    "studio": "Shuka",
+    "year": 2015,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 27831,
+    "title": "Durarara!! x2 Ten",
     "genres": [
       "Action",
       "Mystery",
@@ -365,6 +526,18 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 62604,
+    "title": "Gals Can't Be Kind to Otaku!?",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "TMS Entertainment",
+    "year": 2026,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
     "mal_id": 34280,
     "title": "Gamers!",
     "genres": [
@@ -434,6 +607,17 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 32648,
+    "title": "Handa-kun",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "Diomedéa",
+    "year": 2016,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 32542,
     "title": "Haven't You Heard? I'm Sakamoto",
     "genres": [
@@ -443,6 +627,78 @@
     "year": 2016,
     "episodes": 12,
     "demographic": "seinen"
+  },
+  {
+    "mal_id": 21877,
+    "title": "Hi Score Girl",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2018,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
+    "mal_id": 11617,
+    "title": "High School DxD",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Supernatural",
+      "Ecchi"
+    ],
+    "studio": "TNK",
+    "year": 2012,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 24703,
+    "title": "High School DxD BorN",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Supernatural",
+      "Ecchi"
+    ],
+    "studio": "TNK",
+    "year": 2015,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 15451,
+    "title": "High School DxD New",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Supernatural",
+      "Ecchi"
+    ],
+    "studio": "TNK",
+    "year": 2013,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 37210,
+    "title": "How Not to Summon a Demon Lord",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Ecchi"
+    ],
+    "studio": "Ajia-do",
+    "year": 2018,
+    "episodes": 12,
+    "demographic": "none"
   },
   {
     "mal_id": 11061,
@@ -456,6 +712,31 @@
     "year": 2011,
     "episodes": 148,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 40586,
+    "title": "I've Been Killing Slimes for 300 Years and Maxed Out My Level",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Revoroot",
+    "year": 2021,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 28121,
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2015,
+    "episodes": 13,
+    "demographic": "none"
   },
   {
     "mal_id": 14719,
@@ -503,6 +784,18 @@
     ],
     "studio": "David Production",
     "year": 2014,
+    "episodes": 24,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 26055,
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "studio": "David Production",
+    "year": 2015,
     "episodes": 24,
     "demographic": "shonen"
   },
@@ -566,6 +859,18 @@
     "demographic": "seinen"
   },
   {
+    "mal_id": 39030,
+    "title": "Kemono Michi: Rise Up",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "ENGI",
+    "year": 2019,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 18679,
     "title": "Kill la Kill",
     "genres": [
@@ -604,6 +909,19 @@
     "demographic": "none"
   },
   {
+    "mal_id": 40974,
+    "title": "Kuma Kuma Kuma Bear",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "EMT Squared",
+    "year": 2020,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
     "mal_id": 11771,
     "title": "Kuroko's Basketball",
     "genres": [
@@ -629,6 +947,18 @@
     "demographic": "seinen"
   },
   {
+    "mal_id": 7054,
+    "title": "Maid Sama!",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2010,
+    "episodes": 26,
+    "demographic": "shojo"
+  },
+  {
     "mal_id": 55813,
     "title": "Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc",
     "genres": [
@@ -651,6 +981,18 @@
     "studio": "Kyoto Animation",
     "year": 2017,
     "episodes": 13,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 39247,
+    "title": "Miss Kobayashi's Dragon Maid S",
+    "genres": [
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "studio": "Kyoto Animation",
+    "year": 2021,
+    "episodes": 12,
     "demographic": "none"
   },
   {
@@ -812,6 +1154,56 @@
     "demographic": "seinen"
   },
   {
+    "mal_id": 34134,
+    "title": "One-Punch Man Season 2",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2019,
+    "episodes": 12,
+    "demographic": "seinen"
+  },
+  {
+    "mal_id": 20931,
+    "title": "Oneechan ga Kita",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "C2C",
+    "year": 2014,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 35073,
+    "title": "Overlord II",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "studio": "Madhouse",
+    "year": 2018,
+    "episodes": 13,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 527,
+    "title": "Pokémon",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "OLM",
+    "year": 1997,
+    "episodes": 276,
+    "demographic": "kids"
+  },
+  {
     "mal_id": 13601,
     "title": "Psycho-Pass",
     "genres": [
@@ -852,6 +1244,19 @@
     "demographic": "none"
   },
   {
+    "mal_id": 39587,
+    "title": "Re:ZERO -Starting Life in Another World- Season 2",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Suspense"
+    ],
+    "studio": "White Fox",
+    "year": 2020,
+    "episodes": 13,
+    "demographic": "none"
+  },
+  {
     "mal_id": 42203,
     "title": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
     "genres": [
@@ -877,6 +1282,19 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 34012,
+    "title": "Restaurant to Another World",
+    "genres": [
+      "Fantasy",
+      "Gourmet",
+      "Slice of Life"
+    ],
+    "studio": "SILVER LINK.",
+    "year": 2017,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
     "mal_id": 205,
     "title": "Samurai Champloo",
     "genres": [
@@ -887,6 +1305,20 @@
     "studio": "Manglobe",
     "year": 2004,
     "episodes": 26,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 44203,
+    "title": "Seirei Gensouki: Spirit Chronicles",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "studio": "TMS Entertainment",
+    "year": 2021,
+    "episodes": 12,
     "demographic": "none"
   },
   {
@@ -901,6 +1333,18 @@
     "year": 2008,
     "episodes": 51,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 3470,
+    "title": "Special A (S.A)",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "Gonzo",
+    "year": 2008,
+    "episodes": 24,
+    "demographic": "shojo"
   },
   {
     "mal_id": 50265,
@@ -942,6 +1386,20 @@
     "demographic": "none"
   },
   {
+    "mal_id": 21881,
+    "title": "Sword Art Online II",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2014,
+    "episodes": 24,
+    "demographic": "none"
+  },
+  {
     "mal_id": 37430,
     "title": "That Time I Got Reincarnated as a Slime",
     "genres": [
@@ -979,6 +1437,21 @@
     "demographic": "none"
   },
   {
+    "mal_id": 31737,
+    "title": "The Asterisk War Season 2",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Ecchi"
+    ],
+    "studio": "A-1 Pictures",
+    "year": 2016,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
     "mal_id": 15809,
     "title": "The Devil is a Part-Timer!",
     "genres": [
@@ -1002,6 +1475,17 @@
     "demographic": "shonen"
   },
   {
+    "mal_id": 34612,
+    "title": "The Disastrous Life of Saiki K. 2",
+    "genres": [
+      "Comedy"
+    ],
+    "studio": "J.C.Staff",
+    "year": 2018,
+    "episodes": 24,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 40542,
     "title": "The Disastrous Life of Saiki K.: Reawakened",
     "genres": [
@@ -1011,6 +1495,19 @@
     "year": 2019,
     "episodes": 6,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 48761,
+    "title": "The Faraway Paladin",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "studio": "Children's Playground Entertainment",
+    "year": 2021,
+    "episodes": 12,
+    "demographic": "none"
   },
   {
     "mal_id": 20785,
@@ -1024,6 +1521,20 @@
     "studio": "Madhouse",
     "year": 2014,
     "episodes": 26,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 40497,
+    "title": "The Irregular at Magic High School: Visitor Arc",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "studio": "8bit",
+    "year": 2020,
+    "episodes": 13,
     "demographic": "none"
   },
   {
@@ -1050,6 +1561,18 @@
     "studio": "Kinema Citrus",
     "year": 2019,
     "episodes": 25,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 54103,
+    "title": "The Vexations of a Shut-In Vampire Princess",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Project No.9",
+    "year": 2023,
+    "episodes": 12,
     "demographic": "none"
   },
   {
@@ -1105,6 +1628,45 @@
     "demographic": "none"
   },
   {
+    "mal_id": 6,
+    "title": "Trigun",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "studio": "Madhouse",
+    "year": 1998,
+    "episodes": 26,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 43523,
+    "title": "Tsukimichi: Moonlit Fantasy",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "C2C",
+    "year": 2021,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
+    "mal_id": 34902,
+    "title": "Tsuredure Children",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "Studio Gokumi",
+    "year": 2017,
+    "episodes": 12,
+    "demographic": "shonen"
+  },
+  {
     "mal_id": 37521,
     "title": "Vinland Saga",
     "genres": [
@@ -1118,6 +1680,32 @@
     "demographic": "seinen"
   },
   {
+    "mal_id": 41402,
+    "title": "Welcome to Demon School! Iruma-kun Season 2",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "studio": "Bandai Namco Pictures",
+    "year": 2021,
+    "episodes": 21,
+    "demographic": "shonen"
+  },
+  {
+    "mal_id": 36407,
+    "title": "Wise Man's Grandchild",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "studio": "SILVER LINK.",
+    "year": 2019,
+    "episodes": 12,
+    "demographic": "none"
+  },
+  {
     "mal_id": 51553,
     "title": "Witch Hat Atelier",
     "genres": [
@@ -1127,6 +1715,18 @@
     "year": 2026,
     "episodes": 13,
     "demographic": "seinen"
+  },
+  {
+    "mal_id": 60371,
+    "title": "You and I Are Polar Opposites",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "studio": "Lapin Track",
+    "year": 2026,
+    "episodes": 12,
+    "demographic": "shonen"
   },
   {
     "mal_id": 23273,
@@ -1151,5 +1751,16 @@
     "year": 1992,
     "episodes": 112,
     "demographic": "shonen"
+  },
+  {
+    "mal_id": 25519,
+    "title": "Yuki Yuna is a Hero",
+    "genres": [
+      "Drama"
+    ],
+    "studio": "Studio Gokumi",
+    "year": 2014,
+    "episodes": 12,
+    "demographic": "none"
   }
 ]
