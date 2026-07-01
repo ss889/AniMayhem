@@ -1,53 +1,269 @@
 [
   {
-    "id": "cowboy-bebop-swordfish",
-    "series_title": "Cowboy Bebop",
-    "question": "Which anime features this red spacecraft?",
-    "type": "object",
-    "desired_image": "Official key art or clean crop featuring Spike's Swordfish II.",
-    "suggested_local_path": "/images/cowboy-bebop/swordfish.jpg",
-    "preferred_source": "Official Sunrise/Bandai/Cowboy Bebop promotional art"
+    "id": "bleach-zangetsu",
+    "series_title": "Bleach",
+    "question": "Name this weapon.",
+    "theme": "weapons",
+    "type": "weapon",
+    "desired_image": "Official art or clean crop of Ichigo's Zangetsu.",
+    "suggested_local_path": "/images/bleach/zangetsu.jpg",
+    "preferred_source": "Official Bleach anime promotional art"
   },
   {
-    "id": "attack-on-titan-colossal",
-    "series_title": "Attack on Titan",
-    "question": "What anime is this wall-breaking titan from?",
-    "type": "character",
-    "desired_image": "Official visual featuring the Colossal Titan at the wall.",
-    "suggested_local_path": "/images/attack-on-titan/colossal-titan.jpg",
-    "preferred_source": "Official Attack on Titan anime promotional art"
+    "id": "demon-slayer-nichirin",
+    "series_title": "Demon Slayer: Kimetsu no Yaiba",
+    "question": "Name this weapon.",
+    "theme": "weapons",
+    "type": "weapon",
+    "desired_image": "Official art or clean crop of a Nichirin sword.",
+    "suggested_local_path": "/images/demon-slayer/nichirin-sword.jpg",
+    "preferred_source": "Official Demon Slayer / Aniplex / ufotable promotional art"
+  },
+  {
+    "id": "soul-eater-scythe",
+    "series_title": "Soul Eater",
+    "question": "Name this weapon.",
+    "theme": "weapons",
+    "type": "weapon",
+    "desired_image": "Official art or crop of Soul in scythe form.",
+    "suggested_local_path": "/images/soul-eater/scythe.jpg",
+    "preferred_source": "Official Soul Eater anime promotional art"
+  },
+  {
+    "id": "sao-elucidator",
+    "series_title": "Sword Art Online",
+    "question": "Name this weapon.",
+    "theme": "weapons",
+    "type": "weapon",
+    "desired_image": "Official art or crop of Kirito's Elucidator.",
+    "suggested_local_path": "/images/sword-art-online/elucidator.jpg",
+    "preferred_source": "Official Sword Art Online anime promotional art"
+  },
+  {
+    "id": "naruto-kunai",
+    "series_title": "Naruto",
+    "question": "Name this anime.",
+    "theme": "weapons",
+    "type": "weapon",
+    "desired_image": "Official art or clean crop featuring a kunai/ninja tool.",
+    "suggested_local_path": "/images/naruto/kunai.jpg",
+    "preferred_source": "Official Naruto / Pierrot promotional art"
   },
   {
     "id": "death-note-notebook",
     "series_title": "Death Note",
-    "question": "Name the anime associated with this notebook.",
+    "question": "Name this object.",
+    "theme": "objects",
     "type": "object",
-    "desired_image": "Official key art or product-style visual where the Death Note is clearly visible.",
+    "desired_image": "Official visual where the Death Note is clearly visible.",
     "suggested_local_path": "/images/death-note/notebook.jpg",
     "preferred_source": "Official Death Note anime promotional art"
   },
   {
+    "id": "gurren-lagann-core-drill",
+    "series_title": "Gurren Lagann",
+    "question": "Name this object.",
+    "theme": "objects",
+    "type": "object",
+    "desired_image": "Official visual featuring the Core Drill.",
+    "suggested_local_path": "/images/gurren-lagann/core-drill.jpg",
+    "preferred_source": "Official Gurren Lagann / Gainax promotional art"
+  },
+  {
     "id": "demon-slayer-nezuko-box",
     "series_title": "Demon Slayer: Kimetsu no Yaiba",
-    "question": "Which anime features this wooden carrying box?",
+    "question": "Name this object.",
+    "theme": "objects",
     "type": "object",
     "desired_image": "Official visual or screenshot crop featuring Tanjiro's box.",
     "suggested_local_path": "/images/demon-slayer/nezuko-box.jpg",
     "preferred_source": "Official Demon Slayer / Aniplex / ufotable promotional art"
   },
   {
+    "id": "cowboy-bebop-swordfish",
+    "series_title": "Cowboy Bebop",
+    "question": "Name this object.",
+    "theme": "objects",
+    "type": "object",
+    "desired_image": "Official art or clean crop featuring Spike's Swordfish II.",
+    "suggested_local_path": "/images/cowboy-bebop/swordfish.jpg",
+    "preferred_source": "Official Sunrise/Bandai/Cowboy Bebop promotional art"
+  },
+  {
+    "id": "dragon-ball-dragon-balls",
+    "series_title": "Dragon Ball Z",
+    "question": "Name this object.",
+    "theme": "objects",
+    "type": "object",
+    "desired_image": "Official visual featuring Dragon Balls.",
+    "suggested_local_path": "/images/dragon-ball-z/dragon-balls.jpg",
+    "preferred_source": "Official Dragon Ball / Toei promotional art"
+  },
+  {
+    "id": "attack-on-titan-first-wall",
+    "series_title": "Attack on Titan",
+    "question": "Name the anime by the first scene.",
+    "theme": "first-scene",
+    "type": "scene",
+    "desired_image": "Opening/early episode crop with wall, town, or titan framing.",
+    "suggested_local_path": "/images/attack-on-titan/first-scene.jpg",
+    "preferred_source": "Project-owned screenshot/crop from the anime"
+  },
+  {
+    "id": "frieren-first-road",
+    "series_title": "Frieren: Beyond Journey's End",
+    "question": "Name the anime by the first scene.",
+    "theme": "first-scene",
+    "type": "scene",
+    "desired_image": "Opening/early episode crop with the party journey or landscape.",
+    "suggested_local_path": "/images/frieren/first-scene.jpg",
+    "preferred_source": "Project-owned screenshot/crop from the anime"
+  },
+  {
+    "id": "steins-gate-first-lab",
+    "series_title": "Steins;Gate",
+    "question": "Name the anime by the first scene.",
+    "theme": "first-scene",
+    "type": "scene",
+    "desired_image": "Early scene crop from the lab, street, or conference setting.",
+    "suggested_local_path": "/images/steins-gate/first-scene.jpg",
+    "preferred_source": "Project-owned screenshot/crop from the anime"
+  },
+  {
+    "id": "apothecary-diaries-palace",
+    "series_title": "The Apothecary Diaries",
+    "question": "Name the anime by the first scene.",
+    "theme": "first-scene",
+    "type": "scene",
+    "desired_image": "Early palace or rear palace establishing shot.",
+    "suggested_local_path": "/images/apothecary-diaries/first-scene.jpg",
+    "preferred_source": "Project-owned screenshot/crop from the anime"
+  },
+  {
+    "id": "vinland-saga-shore",
+    "series_title": "Vinland Saga",
+    "question": "Name the anime by the first scene.",
+    "theme": "first-scene",
+    "type": "scene",
+    "desired_image": "Early shoreline, ship, or village establishing crop.",
+    "suggested_local_path": "/images/vinland-saga/first-scene.jpg",
+    "preferred_source": "Project-owned screenshot/crop from the anime"
+  },
+  {
+    "id": "one-punch-man-no-face",
+    "series_title": "One Punch Man",
+    "question": "No face. Name the anime.",
+    "theme": "no-face",
+    "type": "character",
+    "desired_image": "Crop of Saitama's suit/cape/body without showing his face.",
+    "suggested_local_path": "/images/one-punch-man/no-face.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official character art crop"
+  },
+  {
+    "id": "jujutsu-kaisen-no-face",
+    "series_title": "Jujutsu Kaisen",
+    "question": "No face. Name the anime.",
+    "theme": "no-face",
+    "type": "character",
+    "desired_image": "Crop of Gojo/Yuji/Nobara outfit or silhouette without face.",
+    "suggested_local_path": "/images/jujutsu-kaisen/no-face.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official character art crop"
+  },
+  {
+    "id": "spy-family-no-face",
+    "series_title": "Spy x Family",
+    "question": "No face. Name the anime.",
+    "theme": "no-face",
+    "type": "character",
+    "desired_image": "Crop of Anya's uniform/hair accessories or Loid's suit without face.",
+    "suggested_local_path": "/images/spy-x-family/no-face.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official character art crop"
+  },
+  {
+    "id": "haikyu-no-face",
+    "series_title": "Haikyu!!",
+    "question": "No face. Name the anime.",
+    "theme": "no-face",
+    "type": "character",
+    "desired_image": "Crop of Karasuno jersey, court pose, or volleyball uniform without face.",
+    "suggested_local_path": "/images/haikyu/no-face.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official character art crop"
+  },
+  {
+    "id": "chainsaw-man-no-face",
+    "series_title": "Chainsaw Man",
+    "question": "No face. Name the anime.",
+    "theme": "no-face",
+    "type": "character",
+    "desired_image": "Crop of Public Safety uniform, chainsaw arm, or jacket without face.",
+    "suggested_local_path": "/images/chainsaw-man/no-face.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official character art crop"
+  },
+  {
+    "id": "naruto-crowd",
+    "series_title": "Naruto",
+    "question": "Find the anime in the crowd.",
+    "theme": "crowd",
+    "type": "scene",
+    "desired_image": "Crowd/team shot with Naruto visible among several characters.",
+    "suggested_local_path": "/images/naruto/crowd.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official group visual"
+  },
+  {
+    "id": "my-hero-academia-crowd",
+    "series_title": "My Hero Academia",
+    "question": "Find the anime in the crowd.",
+    "theme": "crowd",
+    "type": "scene",
+    "desired_image": "Class/group shot with several UA students.",
+    "suggested_local_path": "/images/my-hero-academia/crowd.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official group visual"
+  },
+  {
+    "id": "kaguya-sama-crowd",
+    "series_title": "Kaguya-sama: Love is War",
+    "question": "Find the anime in the crowd.",
+    "theme": "crowd",
+    "type": "scene",
+    "desired_image": "Student council/group crop with multiple characters.",
+    "suggested_local_path": "/images/kaguya-sama/crowd.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official group visual"
+  },
+  {
+    "id": "konosuba-crowd",
+    "series_title": "KonoSuba: God's Blessing on This Wonderful World!",
+    "question": "Find the anime in the crowd.",
+    "theme": "crowd",
+    "type": "scene",
+    "desired_image": "Party/group crop with Kazuma, Aqua, Megumin, and Darkness.",
+    "suggested_local_path": "/images/konosuba/crowd.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official group visual"
+  },
+  {
+    "id": "jojo-crowd",
+    "series_title": "JoJo's Bizarre Adventure",
+    "question": "Find the anime in the crowd.",
+    "theme": "crowd",
+    "type": "scene",
+    "desired_image": "Group crop with JoJo characters/Stands.",
+    "suggested_local_path": "/images/jojos-bizarre-adventure/crowd.jpg",
+    "preferred_source": "Project-owned screenshot/crop or official group visual"
+  },
+  {
     "id": "chainsaw-man-denji",
     "series_title": "Chainsaw Man",
-    "question": "Which anime does this chainsaw-headed character appear in?",
+    "question": "Name this character.",
+    "theme": "characters",
     "type": "character",
-    "desired_image": "Official visual featuring Chainsaw Man clearly.",
-    "suggested_local_path": "/images/chainsaw-man/denji-chainsaw.jpg",
+    "desired_image": "Official character art featuring Denji or Chainsaw Man.",
+    "suggested_local_path": "/images/chainsaw-man/denji.jpg",
     "preferred_source": "Official Chainsaw Man / MAPPA promotional art"
   },
   {
     "id": "spy-family-anya",
     "series_title": "Spy x Family",
-    "question": "Which anime does this pink-haired telepath appear in?",
+    "question": "Name this character.",
+    "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Anya Forger.",
     "suggested_local_path": "/images/spy-x-family/anya.jpg",
@@ -56,127 +272,81 @@
   {
     "id": "frieren-staff",
     "series_title": "Frieren: Beyond Journey's End",
-    "question": "Which anime is this elven mage from?",
+    "question": "Name this character.",
+    "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Frieren with her staff.",
-    "suggested_local_path": "/images/frieren/frieren-staff.jpg",
+    "suggested_local_path": "/images/frieren/frieren.jpg",
     "preferred_source": "Official Frieren anime promotional art"
-  },
-  {
-    "id": "haikyu-volleyball",
-    "series_title": "Haikyu!!",
-    "question": "Which sports anime is this volleyball clue from?",
-    "type": "object",
-    "desired_image": "Official key art or clean crop emphasizing volleyball/Karasuno.",
-    "suggested_local_path": "/images/haikyu/volleyball.jpg",
-    "preferred_source": "Official Haikyu!! anime promotional art"
-  },
-  {
-    "id": "one-punch-man-saitama",
-    "series_title": "One Punch Man",
-    "question": "Which anime stars this bald hero in a cape?",
-    "type": "character",
-    "desired_image": "Official character art featuring Saitama.",
-    "suggested_local_path": "/images/one-punch-man/saitama.jpg",
-    "preferred_source": "Official One Punch Man anime promotional art"
   },
   {
     "id": "mob-psycho-mob",
     "series_title": "Mob Psycho 100",
-    "question": "Which anime features this quiet psychic student?",
+    "question": "Name this character.",
+    "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Shigeo 'Mob' Kageyama.",
     "suggested_local_path": "/images/mob-psycho-100/mob.jpg",
     "preferred_source": "Official Mob Psycho 100 anime promotional art"
   },
   {
-    "id": "code-geass-mask",
-    "series_title": "Code Geass: Lelouch of the Rebellion",
-    "question": "Which anime features this masked rebel identity?",
-    "type": "character",
-    "desired_image": "Official visual featuring Zero's mask/outfit.",
-    "suggested_local_path": "/images/code-geass/zero.jpg",
-    "preferred_source": "Official Code Geass / Sunrise promotional art"
-  },
-  {
-    "id": "gurren-lagann-glasses",
-    "series_title": "Gurren Lagann",
-    "question": "Which anime is this drill-and-shades energy from?",
-    "type": "object",
-    "desired_image": "Official visual featuring Kamina's sunglasses or the core drill.",
-    "suggested_local_path": "/images/gurren-lagann/core-drill.jpg",
-    "preferred_source": "Official Gurren Lagann / Gainax promotional art"
-  },
-  {
-    "id": "kaguya-love-is-war-table",
-    "series_title": "Kaguya-sama: Love is War",
-    "question": "Which anime turns student council romance into psychological warfare?",
-    "type": "scene",
-    "desired_image": "Official key art featuring Kaguya, Shirogane, or the student council room.",
-    "suggested_local_path": "/images/kaguya-sama/student-council.jpg",
-    "preferred_source": "Official Kaguya-sama anime promotional art"
-  },
-  {
-    "id": "bocchi-guitar",
-    "series_title": "Bocchi the Rock!",
-    "question": "Which anime is this pink-haired guitarist from?",
-    "type": "character",
-    "desired_image": "Official character art featuring Hitori Gotoh with guitar.",
-    "suggested_local_path": "/images/bocchi-the-rock/bocchi-guitar.jpg",
-    "preferred_source": "Official Bocchi the Rock! anime promotional art"
-  },
-  {
-    "id": "vinland-saga-thorfinn",
-    "series_title": "Vinland Saga",
-    "question": "Which anime follows this young Viking warrior?",
-    "type": "character",
-    "desired_image": "Official visual featuring Thorfinn.",
-    "suggested_local_path": "/images/vinland-saga/thorfinn.jpg",
-    "preferred_source": "Official Vinland Saga anime promotional art"
-  },
-  {
-    "id": "made-in-abyss-reg",
-    "series_title": "Made in Abyss",
-    "question": "Which anime descends into this giant abyss?",
-    "type": "scene",
-    "desired_image": "Official key art showing the Abyss or main explorers.",
-    "suggested_local_path": "/images/made-in-abyss/abyss.jpg",
-    "preferred_source": "Official Made in Abyss anime promotional art"
-  },
-  {
-    "id": "durarara-headless-rider",
+    "id": "durarara-celty",
     "series_title": "Durarara!!",
-    "question": "Which anime features the Headless Rider of Ikebukuro?",
+    "question": "Name this character.",
+    "theme": "characters",
     "type": "character",
     "desired_image": "Official visual featuring Celty Sturluson.",
     "suggested_local_path": "/images/durarara/celty.jpg",
     "preferred_source": "Official Durarara!! anime promotional art"
   },
   {
-    "id": "apothecary-diaries-maomao",
-    "series_title": "The Apothecary Diaries",
-    "question": "Which anime follows this poison-savvy palace apothecary?",
-    "type": "character",
-    "desired_image": "Official character art featuring Maomao.",
-    "suggested_local_path": "/images/apothecary-diaries/maomao.jpg",
-    "preferred_source": "Official The Apothecary Diaries anime promotional art"
-  },
-  {
-    "id": "jojo-stand",
-    "series_title": "JoJo's Bizarre Adventure",
-    "question": "Which anime is famous for Stands and dramatic poses?",
-    "type": "character",
-    "desired_image": "Official key art featuring a JoJo protagonist and Stand.",
-    "suggested_local_path": "/images/jojos-bizarre-adventure/stand.jpg",
-    "preferred_source": "Official JoJo's Bizarre Adventure anime promotional art"
-  },
-  {
-    "id": "konosuba-party",
-    "series_title": "KonoSuba: God's Blessing on This Wonderful World!",
-    "question": "Which isekai comedy features this disastrous adventuring party?",
+    "id": "death-note-quote",
+    "series_title": "Death Note",
+    "question": "Name the anime by the quote.",
+    "theme": "quotes",
     "type": "scene",
-    "desired_image": "Official key art featuring Kazuma, Aqua, Megumin, and Darkness.",
-    "suggested_local_path": "/images/konosuba/party.jpg",
-    "preferred_source": "Official KonoSuba anime promotional art"
+    "desired_image": "A simple graphic or screenshot crop paired with a short iconic quote clue.",
+    "suggested_local_path": "/images/death-note/quote.jpg",
+    "preferred_source": "Project-created quote card or project-owned screenshot/crop"
+  },
+  {
+    "id": "fullmetal-alchemist-quote",
+    "series_title": "Fullmetal Alchemist: Brotherhood",
+    "question": "Name the anime by the quote.",
+    "theme": "quotes",
+    "type": "scene",
+    "desired_image": "A simple graphic or screenshot crop paired with an equivalent exchange clue.",
+    "suggested_local_path": "/images/fullmetal-alchemist-brotherhood/quote.jpg",
+    "preferred_source": "Project-created quote card or project-owned screenshot/crop"
+  },
+  {
+    "id": "one-piece-quote",
+    "series_title": "One Piece",
+    "question": "Name the anime by the quote.",
+    "theme": "quotes",
+    "type": "scene",
+    "desired_image": "A simple graphic or screenshot crop paired with a pirate-king clue.",
+    "suggested_local_path": "/images/one-piece/quote.jpg",
+    "preferred_source": "Project-created quote card or project-owned screenshot/crop"
+  },
+  {
+    "id": "naruto-quote",
+    "series_title": "Naruto",
+    "question": "Name the anime by the quote.",
+    "theme": "quotes",
+    "type": "scene",
+    "desired_image": "A simple graphic or screenshot crop paired with a ninja-way clue.",
+    "suggested_local_path": "/images/naruto/quote.jpg",
+    "preferred_source": "Project-created quote card or project-owned screenshot/crop"
+  },
+  {
+    "id": "attack-on-titan-quote",
+    "series_title": "Attack on Titan",
+    "question": "Name the anime by the quote.",
+    "theme": "quotes",
+    "type": "scene",
+    "desired_image": "A simple graphic or screenshot crop paired with a freedom/wall clue.",
+    "suggested_local_path": "/images/attack-on-titan/quote.jpg",
+    "preferred_source": "Project-created quote card or project-owned screenshot/crop"
   }
 ]

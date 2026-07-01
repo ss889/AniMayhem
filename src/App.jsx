@@ -23,7 +23,7 @@ export default function App() {
 
   const stats = {
     comparator: `${comparatorData.length} series`,
-    'image-guess': `${imageGuessData.length} playable / ${imageShotList.length} planned`,
+    'image-guess': `${imageGuessData.length} playable / ${new Set(imageShotList.map((entry) => entry.theme)).size} planned packs`,
   };
   const demoStates = compareGuess(comparatorData[1], comparatorData[0]).map((tile) => tile.state);
   const heroDemoStates = [...demoStates, ...demoStates].slice(0, 9);

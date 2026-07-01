@@ -2,33 +2,36 @@
   {
     "id": "alchemy-gate",
     "image_path": "/AniMayhem/images/placeholders/alchemy-gate.svg",
-    "question": "Which anime is this alchemy symbol pointing toward?",
+    "question": "Name this anime.",
     "series_title": "Fullmetal Alchemist: Brotherhood",
     "genre": ["Action", "Adventure", "Drama", "Fantasy"],
     "studio": "Bones",
     "type": "object",
+    "theme": "objects",
     "choices": ["Attack on Titan", "Fullmetal Alchemist: Brotherhood", "Steins;Gate", "Jujutsu Kaisen"],
     "answer": "Fullmetal Alchemist: Brotherhood"
   },
   {
     "id": "clock-lab",
     "image_path": "/AniMayhem/images/placeholders/clock-lab.svg",
-    "question": "What anime does this time-loop lab clue belong to?",
+    "question": "Name this scene.",
     "series_title": "Steins;Gate",
     "genre": ["Drama", "Sci-Fi", "Suspense"],
     "studio": "White Fox",
     "type": "scene",
+    "theme": "scenes",
     "choices": ["Death Note", "Steins;Gate", "Hunter x Hunter", "My Hero Academia"],
     "answer": "Steins;Gate"
   },
   {
     "id": "cursed-finger",
     "image_path": "/AniMayhem/images/placeholders/cursed-finger.svg",
-    "question": "Name the anime associated with this cursed object.",
+    "question": "Name this anime.",
     "series_title": "Jujutsu Kaisen",
     "genre": ["Action", "Supernatural"],
     "studio": "MAPPA",
     "type": "object",
+    "theme": "objects",
     "choices": ["Jujutsu Kaisen", "One Piece", "Attack on Titan", "Death Note"],
     "answer": "Jujutsu Kaisen"
   }

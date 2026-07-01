@@ -2,6 +2,16 @@ import { useEffect, useState } from 'react';
 import { FeedbackBadge } from '../shared/FeedbackBadge.jsx';
 import { ModeHeader } from '../shared/ModeHeader.jsx';
 
+const themeLabels = {
+  all: 'All',
+  characters: 'Characters',
+  crowd: 'Crowd',
+  objects: 'Objects',
+  quotes: 'Quotes',
+  scenes: 'Scenes',
+  weapons: 'Weapons',
+};
+
 function shuffleItems(items) {
   return [...items]
     .map((item) => ({ item, sort: Math.random() }))
@@ -42,6 +52,12 @@ function filterLabel(filter) {
 
 export function ImageGuess({ filter, imageGuessData, onBack }) {
   const scopedData = filterImageData(imageGuessData, filter);
+  const [theme, setTheme] = useState('all');
+  const themes = ['all', ...Array.from(new Set(scopedData.map((entry) => entry.theme ?? entry.type))).sort()];
+  const activeTheme = themes.includes(theme) ? theme : 'all';
+  const themedData = activeTheme === 'all'
+    ? scopedData
+    : scopedData.filter((entry) => (entry.theme ?? entry.type) === activeTheme);
   const [rounds, setRounds] = useState(() => makeRounds(scopedData));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -50,10 +66,14 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
   const isCorrect = selected === current.answer;
 
   useEffect(() => {
-    setRounds(makeRounds(scopedData));
+    setRounds(makeRounds(themedData));
     setIndex(0);
     setSelected(null);
-  }, [filter, imageGuessData]);
+  }, [filter, imageGuessData, theme]);
+
+  useEffect(() => {
+    setTheme('all');
+  }, [filter]);
 
   function choose(choice) {
     if (selected) return;
@@ -68,7 +88,7 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
 
   function nextImage() {
     if (index + 1 >= rounds.length) {
-      setRounds(makeRounds(scopedData));
+      setRounds(makeRounds(themedData));
       setIndex(0);
     } else {
       setIndex((value) => value + 1);
@@ -86,7 +106,20 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
       <div className="game-panel image-panel">
         <div className="score-strip">
           <span>Score {score.correct}/{score.total}</span>
-          <strong>Streak {score.streak} - {scopedData.length} images</strong>
+          <strong>Streak {score.streak} - {themedData.length} images</strong>
+        </div>
+
+        <div className="theme-picker" aria-label="Image guess themes">
+          {themes.map((themeId) => (
+            <button
+              className={activeTheme === themeId ? 'theme-pill theme-pill--active' : 'theme-pill'}
+              key={themeId}
+              onClick={() => setTheme(themeId)}
+              type="button"
+            >
+              {themeLabels[themeId] ?? themeId}
+            </button>
+          ))}
         </div>
 
         <figure className="image-clue">
