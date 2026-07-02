@@ -2,7 +2,7 @@
   {
     "id": "bleach-zangetsu",
     "series_title": "Bleach",
-    "question": "Name this weapon.",
+    "question": "Name this anime.",
     "theme": "weapons",
     "type": "weapon",
     "desired_image": "Official art or clean crop of Ichigo's Zangetsu.",
@@ -12,7 +12,7 @@
   {
     "id": "demon-slayer-nichirin",
     "series_title": "Demon Slayer: Kimetsu no Yaiba",
-    "question": "Name this weapon.",
+    "question": "Name this anime.",
     "theme": "weapons",
     "type": "weapon",
     "desired_image": "Official art or clean crop of a Nichirin sword.",
@@ -22,7 +22,7 @@
   {
     "id": "soul-eater-scythe",
     "series_title": "Soul Eater",
-    "question": "Name this weapon.",
+    "question": "Name this anime.",
     "theme": "weapons",
     "type": "weapon",
     "desired_image": "Official art or crop of Soul in scythe form.",
@@ -32,7 +32,7 @@
   {
     "id": "sao-elucidator",
     "series_title": "Sword Art Online",
-    "question": "Name this weapon.",
+    "question": "Name this anime.",
     "theme": "weapons",
     "type": "weapon",
     "desired_image": "Official art or crop of Kirito's Elucidator.",
@@ -52,7 +52,7 @@
   {
     "id": "death-note-notebook",
     "series_title": "Death Note",
-    "question": "Name this object.",
+    "question": "Name this anime.",
     "theme": "objects",
     "type": "object",
     "desired_image": "Official visual where the Death Note is clearly visible.",
@@ -62,7 +62,7 @@
   {
     "id": "gurren-lagann-core-drill",
     "series_title": "Gurren Lagann",
-    "question": "Name this object.",
+    "question": "Name this anime.",
     "theme": "objects",
     "type": "object",
     "desired_image": "Official visual featuring the Core Drill.",
@@ -72,7 +72,7 @@
   {
     "id": "demon-slayer-nezuko-box",
     "series_title": "Demon Slayer: Kimetsu no Yaiba",
-    "question": "Name this object.",
+    "question": "Name this anime.",
     "theme": "objects",
     "type": "object",
     "desired_image": "Official visual or screenshot crop featuring Tanjiro's box.",
@@ -82,7 +82,7 @@
   {
     "id": "cowboy-bebop-swordfish",
     "series_title": "Cowboy Bebop",
-    "question": "Name this object.",
+    "question": "Name this anime.",
     "theme": "objects",
     "type": "object",
     "desired_image": "Official art or clean crop featuring Spike's Swordfish II.",
@@ -92,7 +92,7 @@
   {
     "id": "dragon-ball-dragon-balls",
     "series_title": "Dragon Ball Z",
-    "question": "Name this object.",
+    "question": "Name this anime.",
     "theme": "objects",
     "type": "object",
     "desired_image": "Official visual featuring Dragon Balls.",
@@ -102,7 +102,7 @@
   {
     "id": "attack-on-titan-first-wall",
     "series_title": "Attack on Titan",
-    "question": "Name the anime by the first scene.",
+    "question": "Name this anime.",
     "theme": "first-scene",
     "type": "scene",
     "desired_image": "Opening/early episode crop with wall, town, or titan framing.",
@@ -112,7 +112,7 @@
   {
     "id": "frieren-first-road",
     "series_title": "Frieren: Beyond Journey's End",
-    "question": "Name the anime by the first scene.",
+    "question": "Name this anime.",
     "theme": "first-scene",
     "type": "scene",
     "desired_image": "Opening/early episode crop with the party journey or landscape.",
@@ -122,7 +122,7 @@
   {
     "id": "steins-gate-first-lab",
     "series_title": "Steins;Gate",
-    "question": "Name the anime by the first scene.",
+    "question": "Name this anime.",
     "theme": "first-scene",
     "type": "scene",
     "desired_image": "Early scene crop from the lab, street, or conference setting.",
@@ -132,7 +132,7 @@
   {
     "id": "apothecary-diaries-palace",
     "series_title": "The Apothecary Diaries",
-    "question": "Name the anime by the first scene.",
+    "question": "Name this anime.",
     "theme": "first-scene",
     "type": "scene",
     "desired_image": "Early palace or rear palace establishing shot.",
@@ -142,7 +142,7 @@
   {
     "id": "vinland-saga-shore",
     "series_title": "Vinland Saga",
-    "question": "Name the anime by the first scene.",
+    "question": "Name this anime.",
     "theme": "first-scene",
     "type": "scene",
     "desired_image": "Early shoreline, ship, or village establishing crop.",
@@ -152,7 +152,7 @@
   {
     "id": "one-punch-man-no-face",
     "series_title": "One Punch Man",
-    "question": "No face. Name the anime.",
+    "question": "Name this anime.",
     "theme": "no-face",
     "type": "character",
     "desired_image": "Crop of Saitama's suit/cape/body without showing his face.",
@@ -162,7 +162,7 @@
   {
     "id": "jujutsu-kaisen-no-face",
     "series_title": "Jujutsu Kaisen",
-    "question": "No face. Name the anime.",
+    "question": "Name this anime.",
     "theme": "no-face",
     "type": "character",
     "desired_image": "Crop of Gojo/Yuji/Nobara outfit or silhouette without face.",
@@ -172,7 +172,7 @@
   {
     "id": "spy-family-no-face",
     "series_title": "Spy x Family",
-    "question": "No face. Name the anime.",
+    "question": "Name this anime.",
     "theme": "no-face",
     "type": "character",
     "desired_image": "Crop of Anya's uniform/hair accessories or Loid's suit without face.",
@@ -182,7 +182,7 @@
   {
     "id": "haikyu-no-face",
     "series_title": "Haikyu!!",
-    "question": "No face. Name the anime.",
+    "question": "Name this anime.",
     "theme": "no-face",
     "type": "character",
     "desired_image": "Crop of Karasuno jersey, court pose, or volleyball uniform without face.",
@@ -192,7 +192,7 @@
   {
     "id": "chainsaw-man-no-face",
     "series_title": "Chainsaw Man",
-    "question": "No face. Name the anime.",
+    "question": "Name this anime.",
     "theme": "no-face",
     "type": "character",
     "desired_image": "Crop of Public Safety uniform, chainsaw arm, or jacket without face.",
@@ -202,7 +202,7 @@
   {
     "id": "naruto-crowd",
     "series_title": "Naruto",
-    "question": "Find the anime in the crowd.",
+    "question": "Name this anime.",
     "theme": "crowd",
     "type": "scene",
     "desired_image": "Crowd/team shot with Naruto visible among several characters.",
@@ -212,7 +212,7 @@
   {
     "id": "my-hero-academia-crowd",
     "series_title": "My Hero Academia",
-    "question": "Find the anime in the crowd.",
+    "question": "Name this anime.",
     "theme": "crowd",
     "type": "scene",
     "desired_image": "Class/group shot with several UA students.",
@@ -222,7 +222,7 @@
   {
     "id": "kaguya-sama-crowd",
     "series_title": "Kaguya-sama: Love is War",
-    "question": "Find the anime in the crowd.",
+    "question": "Name this anime.",
     "theme": "crowd",
     "type": "scene",
     "desired_image": "Student council/group crop with multiple characters.",
@@ -232,7 +232,7 @@
   {
     "id": "konosuba-crowd",
     "series_title": "KonoSuba: God's Blessing on This Wonderful World!",
-    "question": "Find the anime in the crowd.",
+    "question": "Name this anime.",
     "theme": "crowd",
     "type": "scene",
     "desired_image": "Party/group crop with Kazuma, Aqua, Megumin, and Darkness.",
@@ -242,7 +242,7 @@
   {
     "id": "jojo-crowd",
     "series_title": "JoJo's Bizarre Adventure",
-    "question": "Find the anime in the crowd.",
+    "question": "Name this anime.",
     "theme": "crowd",
     "type": "scene",
     "desired_image": "Group crop with JoJo characters/Stands.",
@@ -252,7 +252,7 @@
   {
     "id": "chainsaw-man-denji",
     "series_title": "Chainsaw Man",
-    "question": "Name this character.",
+    "question": "Name this anime.",
     "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Denji or Chainsaw Man.",
@@ -262,7 +262,7 @@
   {
     "id": "spy-family-anya",
     "series_title": "Spy x Family",
-    "question": "Name this character.",
+    "question": "Name this anime.",
     "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Anya Forger.",
@@ -272,7 +272,7 @@
   {
     "id": "frieren-staff",
     "series_title": "Frieren: Beyond Journey's End",
-    "question": "Name this character.",
+    "question": "Name this anime.",
     "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Frieren with her staff.",
@@ -282,7 +282,7 @@
   {
     "id": "mob-psycho-mob",
     "series_title": "Mob Psycho 100",
-    "question": "Name this character.",
+    "question": "Name this anime.",
     "theme": "characters",
     "type": "character",
     "desired_image": "Official character art featuring Shigeo 'Mob' Kageyama.",
@@ -292,7 +292,7 @@
   {
     "id": "durarara-celty",
     "series_title": "Durarara!!",
-    "question": "Name this character.",
+    "question": "Name this anime.",
     "theme": "characters",
     "type": "character",
     "desired_image": "Official visual featuring Celty Sturluson.",
@@ -302,7 +302,7 @@
   {
     "id": "death-note-quote",
     "series_title": "Death Note",
-    "question": "Name the anime by the quote.",
+    "question": "Name this anime.",
     "theme": "quotes",
     "type": "scene",
     "desired_image": "A simple graphic or screenshot crop paired with a short iconic quote clue.",
@@ -312,7 +312,7 @@
   {
     "id": "fullmetal-alchemist-quote",
     "series_title": "Fullmetal Alchemist: Brotherhood",
-    "question": "Name the anime by the quote.",
+    "question": "Name this anime.",
     "theme": "quotes",
     "type": "scene",
     "desired_image": "A simple graphic or screenshot crop paired with an equivalent exchange clue.",
@@ -322,7 +322,7 @@
   {
     "id": "one-piece-quote",
     "series_title": "One Piece",
-    "question": "Name the anime by the quote.",
+    "question": "Name this anime.",
     "theme": "quotes",
     "type": "scene",
     "desired_image": "A simple graphic or screenshot crop paired with a pirate-king clue.",
@@ -332,7 +332,7 @@
   {
     "id": "naruto-quote",
     "series_title": "Naruto",
-    "question": "Name the anime by the quote.",
+    "question": "Name this anime.",
     "theme": "quotes",
     "type": "scene",
     "desired_image": "A simple graphic or screenshot crop paired with a ninja-way clue.",
@@ -342,7 +342,7 @@
   {
     "id": "attack-on-titan-quote",
     "series_title": "Attack on Titan",
-    "question": "Name the anime by the quote.",
+    "question": "Name this anime.",
     "theme": "quotes",
     "type": "scene",
     "desired_image": "A simple graphic or screenshot crop paired with a freedom/wall clue.",

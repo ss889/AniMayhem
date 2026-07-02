@@ -42,14 +42,6 @@ function filterImageData(data, filter) {
   return data;
 }
 
-function filterLabel(filter) {
-  if (!filter || filter.type === 'all') {
-    return 'All Series';
-  }
-
-  return `${filter.type === 'genre' ? 'Genre' : 'Studio'}: ${filter.value}`;
-}
-
 export function ImageGuess({ filter, imageGuessData, onBack }) {
   const scopedData = filterImageData(imageGuessData, filter);
   const [theme, setTheme] = useState('all');
@@ -99,9 +91,7 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
 
   return (
     <section className="mode-view" aria-labelledby="image-title">
-      <ModeHeader eyebrow="Curated image trivia" title="Screenshot Snap" onBack={onBack}>
-        A small starter set scoped to {filterLabel(filter)}.
-      </ModeHeader>
+      <ModeHeader eyebrow="Curated image trivia" title="Screenshot Snap" onBack={onBack} />
 
       <div className="game-panel image-panel">
         <div className="score-strip">
@@ -124,7 +114,6 @@ export function ImageGuess({ filter, imageGuessData, onBack }) {
 
         <figure className="image-clue">
           <img alt={`${current.type} clue`} src={current.image_path} />
-          <figcaption>{current.type}</figcaption>
         </figure>
 
         <h2 id="image-title">{current.question}</h2>
