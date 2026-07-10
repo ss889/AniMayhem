@@ -9,7 +9,8 @@
     "type": "object",
     "theme": "objects",
     "choices": ["Attack on Titan", "Fullmetal Alchemist: Brotherhood", "Steins;Gate", "Jujutsu Kaisen"],
-    "answer": "Fullmetal Alchemist: Brotherhood"
+    "answer": "Fullmetal Alchemist: Brotherhood",
+    "hints": ["Genre: Action, Fantasy", "Studio: Bones", "Answer starts with F"]
   },
   {
     "id": "clock-lab",
@@ -21,7 +22,8 @@
     "type": "scene",
     "theme": "scenes",
     "choices": ["Death Note", "Steins;Gate", "Hunter x Hunter", "My Hero Academia"],
-    "answer": "Steins;Gate"
+    "answer": "Steins;Gate",
+    "hints": ["Genre: Sci-Fi, Suspense", "Studio: White Fox", "Answer starts with S"]
   },
   {
     "id": "cursed-finger",
@@ -33,6 +35,7 @@
     "type": "object",
     "theme": "objects",
     "choices": ["Jujutsu Kaisen", "One Piece", "Attack on Titan", "Death Note"],
-    "answer": "Jujutsu Kaisen"
+    "answer": "Jujutsu Kaisen",
+    "hints": ["Genre: Action, Supernatural", "Studio: MAPPA", "Answer starts with J"]
   }
 ]
